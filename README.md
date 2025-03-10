@@ -1,7 +1,6 @@
 # TADA 2025 - Praktyczne testowanie regresji wizualnej: Nowoczesne narzędzia i techniki
 
-# Drogi Uczestniku,
-
+**Drogi Uczestniku**,
 Cieszę się, że wybrałeś właśnie mój warsztat :)
 
 W celu weryfikacji środowiska na którym będziemy pracować w takcie warsztatów poproszę Cię o upewnienie się, że spełniasz wymagania dotyczące narzędzi (*Wymagania*).
