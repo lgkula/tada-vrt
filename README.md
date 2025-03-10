@@ -1,4 +1,4 @@
-# TADA 2025 - Praktyczne testowanie regresji wizualnej: Nowoczesne narzędzia i techniki
+# TADA 2025 - Warsztaty - Praktyczne testowanie regresji wizualnej: Nowoczesne narzędzia i techniki
 
 **Drogi Uczestniku**,
 
