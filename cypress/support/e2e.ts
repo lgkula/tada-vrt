@@ -54,6 +54,7 @@ Cypress.on("test:after:run", (test, runnable) => {
 
     const mochaReportPath = `../cypress/${correctReportPath}`;
 
+    // @ts-ignore
     addContext({ test }, mochaReportPath);
   }
 });
