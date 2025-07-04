@@ -14,10 +14,27 @@ export default defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       addMatchImageSnapshotPlugin(on)
+
+      on('before:browser:launch', (browser = {}, launchOptions) => {
+        const width = 1600;
+        const height = 900;
+
+        if (browser.name === 'electron') {
+          launchOptions.preferences.width = width;
+          launchOptions.preferences.height = height;
+        } else if (browser.family === 'chromium') {
+          launchOptions.args.push(`--window-size=${width},${height}`);
+        }
+
+        return launchOptions;
+      });
+
+      return config;
     },
     baseUrl: "https://unstable.dev.signalocean.com",
     specPattern: 'cypress/tests/**/*.{js,jsx,ts,tsx}',
-    viewportWidth: 1200,
+    viewportWidth: 1600,
     viewportHeight: 900,
   },
+
 })

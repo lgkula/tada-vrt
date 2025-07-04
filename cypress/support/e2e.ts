@@ -18,7 +18,7 @@ import { addMatchImageSnapshotCommand } from '@simonsmith/cypress-image-snapshot
 import addContext from 'mochawesome/addContext'
 import path from "path";
 
-addMatchImageSnapshotCommand()
+addMatchImageSnapshotCommand();
 
 beforeEach(() => {
   cy.clearCookies();
@@ -27,7 +27,6 @@ beforeEach(() => {
     win.sessionStorage.clear();
   });
 });
-
 
 Cypress.on("test:after:run", (test, runnable) => {
   if (test.state === "failed" && runnable) {
