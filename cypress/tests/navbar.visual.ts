@@ -1,14 +1,8 @@
 import * as common from "../pages/common/common";
 
-describe('Tonnage List - Mocked - Visual Tests', () => {
-    it('Tonnage List - Grid - Mocked', () => {
-        cy.intercept('GET', '**/api/tonnageList?basisPortID**', {
-            fixture: 'tonnageList.json'
-        }).as('getTonnageList');
-
-        cy.intercept('POST', '**/api/tonnageList/tce?tabId**', {
-            fixture: 'tce.json'
-        }).as('getTCE');
+describe('Navigation Bar - Visual Tests', () => {
+    it('Navigation Bar Component', () => {
+        cy.intercept('GET', '/api/tonnageList*').as('getTonnageList');
 
         cy.visit('/');
         common.inactivePace().should('exist')
@@ -18,14 +12,8 @@ describe('Tonnage List - Mocked - Visual Tests', () => {
         cy.get('#submitLogin').should('be.visible').click();
         cy.contains('button', 'Accept').click();
         cy.get("div[class^='SideNav_headerTitle_']", { timeout: 30000 }).should('be.visible');
-        cy.get("#sideNav-Tab--Tonnage-List").click()
         common.inactivePace().should('exist')
-        cy.wait('@getTonnageList');
-        cy.wait('@getTCE');
-        cy.waitForDomToBeReady();
-        cy.matchImageSnapshot({
-            failureThreshold: 0.01,
-            failureThresholdType: 'percent',
+        cy.get('#sideNav').matchImageSnapshot({
             blackout: [
                 '.clock',
                 '[class^="UserMenu_sideNavHeaderSettings_"]'

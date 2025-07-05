@@ -1,7 +1,7 @@
 import * as common from "../pages/common/common";
 
 describe('Tonnage List - Visual Tests', () => {
-    it('Login Page', () => {
+    it('Tonnage List - Grid', () => {
         cy.intercept('GET', '/api/tonnageList*').as('getTonnageList');
 
         cy.visit('/');
