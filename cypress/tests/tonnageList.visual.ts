@@ -16,6 +16,13 @@ describe('Tonnage List - Visual Tests', () => {
         common.inactivePace().should('exist')
         cy.wait('@getTonnageList');
         cy.waitForDomToBeReady();
-        cy.matchImageSnapshot({ failureThreshold: 0.01, failureThresholdType: 'percent' });
+        cy.matchImageSnapshot({
+            failureThreshold: 0.01,
+            failureThresholdType: 'percent',
+            blackout: [
+                '.clock',
+                '[class^="UserMenu_sideNavHeaderSettings_"]'
+            ],
+        });
     });
 });
