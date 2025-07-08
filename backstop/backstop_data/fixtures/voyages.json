@@ -1,0 +1,791 @@
+[
+    {
+        "imo": 9251597,
+        "vesselClassID": 84,
+        "startDate": "2025-07-03T23:45:40Z",
+        "endDate": "9999-12-31T23:59:59Z",
+        "aisPointsPerDay": 6,
+        "isCurrentVoyage": true,
+        "shouldDisplayCurrentVoyage": false,
+        "commercialOperatorID": 1053,
+        "commercialOperator": "New Shipping",
+        "latestVesselState": {
+            "speed": 0.0,
+            "draught": 20.6,
+            "heading": 302.0,
+            "course": 239.0,
+            "lat": 29.6071,
+            "lon": 48.7798,
+            "voyageStatusID": 1,
+            "voyageStatus": "Ballast",
+            "latestAIS": "2025-07-08T09:10:14Z",
+            "aisDestination": "KAZ_OPL,IRAQ",
+            "reportedEta": "2025-02-26T23:00:00Z"
+        },
+        "vesselPositionDuration": 0.0,
+        "voyageCode": 97,
+        "voyageNumber": 97,
+        "startingPort": "Khor Al Zubair",
+        "startingPortID": 3535,
+        "startingPortCountryName": "Iraq",
+        "startingPortCountryID": 114,
+        "loadPort": "Unknown",
+        "loadPortID": 0,
+        "dischargePort": "Unknown",
+        "charterer": "CNR",
+        "chartererID": -2,
+        "startPortArrivalDate": "2025-06-20T11:50:25Z",
+        "startPortSailingDate": "2025-07-03T23:45:40Z",
+        "isFuture": false,
+        "commercialStatus": "",
+        "commercialStatusID": 4,
+        "maskedOperationalStatus": "No Details",
+        "rateValue": "RNR",
+        "rateType": "",
+        "stops": [
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "ST",
+                "arrival_LocalTime": "2025-07-04T03:57:46Z",
+                "arrivalLocalTime": "2025-07-04T03:57:46Z",
+                "sailing_LocalTime": "2025-07-08T09:10:14Z",
+                "sailingLocalTime": "2025-07-08T09:10:14Z",
+                "duration": 0.175069444444444,
+                "lat": 29.6071,
+                "lon": 48.7804,
+                "isVesselInStop": true,
+                "isFuture": false
+            }
+        ],
+        "portCalls": [],
+        "voyageAIS": {
+            "ballastAIS": [
+                {
+                    "lat": 29.6109,
+                    "lon": 48.7757
+                },
+                {
+                    "lat": 29.6109,
+                    "lon": 48.7757
+                }
+            ],
+            "ladenAIS": []
+        },
+        "quantityUnitID": 0,
+        "isHistoricalTCEAvailable": false
+    },
+    {
+        "imo": 9251597,
+        "vesselClassID": 84,
+        "startDate": "2025-06-16T11:45:14Z",
+        "endDate": "2025-07-03T23:45:40Z",
+        "aisPointsPerDay": 6,
+        "isCurrentVoyage": false,
+        "shouldDisplayCurrentVoyage": false,
+        "commercialOperatorID": 1053,
+        "commercialOperator": "New Shipping",
+        "voyageCode": 96,
+        "voyageNumber": 96,
+        "startingPort": "Khor Al Zubair",
+        "startingPortID": 3535,
+        "startingPortCountryName": "Iraq",
+        "startingPortCountryID": 114,
+        "loadPort": "Khor Al Zubair",
+        "loadPortID": 3535,
+        "dischargePort": "Khor Al Zubair",
+        "dischargePortID": 3535,
+        "charterer": "CNR",
+        "chartererID": -2,
+        "startPortArrivalDate": "2025-06-12T23:41:00Z",
+        "startPortSailingDate": "2025-06-16T11:45:14Z",
+        "loadArrivalDate": "2025-06-16T15:51:16Z",
+        "isFuture": false,
+        "commercialStatus": "",
+        "commercialStatusID": 4,
+        "maskedOperationalStatus": "",
+        "rateValue": "RNR",
+        "rateType": "",
+        "cargoTypeID": 16,
+        "cargoType": "Fueloil",
+        "stops": [],
+        "portCalls": [
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "L",
+                "arrival_LocalTime": "2025-06-16T15:51:16Z",
+                "arrivalLocalTime": "2025-06-16T15:51:16Z",
+                "sailing_LocalTime": "2025-06-20T07:56:26Z",
+                "sailingLocalTime": "2025-06-20T07:56:26Z",
+                "duration": 0.170856481481481,
+                "lat": 29.6065,
+                "lon": 48.7796,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Camilla",
+                        "dateFrom": "2025-06-16T15:51:16Z",
+                        "dateTo": "2025-06-19T11:50:36Z",
+                        "stsId": "8D2B0D8D37C28DDACEDA0B63200",
+                        "otherVesselImo": 9254850
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            },
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "D",
+                "arrival_LocalTime": "2025-06-20T11:50:25Z",
+                "arrivalLocalTime": "2025-06-20T11:50:25Z",
+                "sailing_LocalTime": "2025-07-03T23:45:40Z",
+                "sailingLocalTime": "2025-07-03T23:45:40Z",
+                "duration": 0.162488425925926,
+                "lat": 29.6113,
+                "lon": 48.7767,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Gem",
+                        "dateFrom": "2025-06-20T11:50:25Z",
+                        "dateTo": "2025-06-20T23:55:35Z",
+                        "stsId": "8D2B0D8F86318DDAFF0A4E59680",
+                        "otherVesselImo": 9406001
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Vs88",
+                        "dateFrom": "2025-06-21T15:50:38Z",
+                        "dateTo": "2025-06-22T11:50:19Z",
+                        "stsId": "8D2B0D8D8A418DDB0DB5E209B00",
+                        "otherVesselImo": 9275969
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "City Of Tokyo",
+                        "dateFrom": "2025-06-26T15:55:13Z",
+                        "dateTo": "2025-06-27T15:46:13Z",
+                        "stsId": "8D2B0D8D67AE8DDB4C9D61B0680",
+                        "otherVesselImo": 9267118
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Taipan",
+                        "dateFrom": "2025-06-28T23:45:13Z",
+                        "dateTo": "2025-06-30T15:57:24Z",
+                        "stsId": "8D2B0D9888698DDB69DD3710A80",
+                        "otherVesselImo": 9996393
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Princess Sofia",
+                        "dateFrom": "2025-06-30T23:44:50Z",
+                        "dateTo": "2025-07-02T11:46:37Z",
+                        "stsId": "8CFF578D2B0D8DDB8301A8F0500",
+                        "otherVesselImo": 9240407
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Orient M",
+                        "dateFrom": "2025-07-02T19:50:07Z",
+                        "dateTo": "2025-07-03T15:51:46Z",
+                        "stsId": "8D2B0D972C198DDB9A1A5434180",
+                        "otherVesselImo": 9907225
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            }
+        ],
+        "voyageAIS": {
+            "ballastAIS": [
+                {
+                    "lat": 29.6076,
+                    "lon": 48.7813
+                },
+                {
+                    "lat": 29.6076,
+                    "lon": 48.7813
+                }
+            ],
+            "ladenAIS": [
+                {
+                    "lat": 29.6065,
+                    "lon": 48.7796
+                },
+                {
+                    "lat": 29.6085,
+                    "lon": 48.781
+                },
+                {
+                    "lat": 29.6078,
+                    "lon": 48.7747
+                }
+            ]
+        },
+        "futureVoyageAIS": {
+            "ballastAIS": [],
+            "ladenAIS": []
+        },
+        "cargoGroupID": 130000,
+        "cargoGroup": "Dirty",
+        "cargoTypeSource": "EstimatedMedium",
+        "quantity": 281000.0,
+        "quantitySource": "Estimated",
+        "quantityUnitID": "MetricTonnes",
+        "isHistoricalTCEAvailable": true
+    },
+    {
+        "imo": 9251597,
+        "vesselClassID": 84,
+        "startDate": "2025-06-02T23:49:12Z",
+        "endDate": "2025-06-16T11:45:14Z",
+        "aisPointsPerDay": 6,
+        "isCurrentVoyage": false,
+        "shouldDisplayCurrentVoyage": false,
+        "commercialOperatorID": 1053,
+        "commercialOperator": "New Shipping",
+        "voyageCode": 95,
+        "voyageNumber": 95,
+        "startingPort": "Khor Al Zubair",
+        "startingPortID": 3535,
+        "startingPortCountryName": "Iraq",
+        "startingPortCountryID": 114,
+        "loadPort": "Khor Al Zubair",
+        "loadPortID": 3535,
+        "dischargePort": "Khor Al Zubair",
+        "dischargePortID": 3535,
+        "charterer": "CNR",
+        "chartererID": -2,
+        "startPortArrivalDate": "2025-05-16T15:47:58Z",
+        "startPortSailingDate": "2025-06-02T23:49:12Z",
+        "loadArrivalDate": "2025-06-04T19:50:30Z",
+        "isFuture": false,
+        "commercialStatus": "",
+        "commercialStatusID": 4,
+        "maskedOperationalStatus": "",
+        "rateValue": "RNR",
+        "rateType": "",
+        "cargoTypeID": 16,
+        "cargoType": "Fueloil",
+        "stops": [
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "ST",
+                "arrival_LocalTime": "2025-06-03T03:55:19Z",
+                "arrivalLocalTime": "2025-06-03T03:55:19Z",
+                "sailing_LocalTime": "2025-06-04T15:55:26Z",
+                "sailingLocalTime": "2025-06-04T15:55:26Z",
+                "duration": 0.170914351851852,
+                "lat": 29.6262,
+                "lon": 48.7671,
+                "isVesselInStop": false,
+                "isFuture": false
+            }
+        ],
+        "portCalls": [
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "L",
+                "arrival_LocalTime": "2025-06-04T19:50:30Z",
+                "arrivalLocalTime": "2025-06-04T19:50:30Z",
+                "sailing_LocalTime": "2025-06-12T19:43:56Z",
+                "sailingLocalTime": "2025-06-12T19:43:56Z",
+                "duration": 0.163240740740741,
+                "lat": 29.6221,
+                "lon": 48.7703,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Ashley",
+                        "dateFrom": "2025-06-04T19:50:30Z",
+                        "dateTo": "2025-06-05T23:47:39Z",
+                        "stsId": "8D2B0D8D45E28DDA3A10F67C700",
+                        "otherVesselImo": 9258466
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "New Tinos",
+                        "dateFrom": "2025-06-09T07:43:25Z",
+                        "dateTo": "2025-06-12T09:25:53Z",
+                        "stsId": "8D2B0D8D2B128DDA72950F1CC80",
+                        "otherVesselImo": 9251602
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            },
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "D",
+                "arrival_LocalTime": "2025-06-12T23:41:00Z",
+                "arrivalLocalTime": "2025-06-12T23:41:00Z",
+                "sailing_LocalTime": "2025-06-16T11:45:14Z",
+                "sailingLocalTime": "2025-06-16T11:45:14Z",
+                "duration": 0.16462962962963,
+                "lat": 29.6081,
+                "lon": 48.7815,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Almi Globe",
+                        "dateFrom": "2025-06-12T23:41:00Z",
+                        "dateTo": "2025-06-14T11:56:11Z",
+                        "stsId": "8D2B0D922BF78DDAA0A96084E00",
+                        "otherVesselImo": 9579511
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Al Mahfoza",
+                        "dateFrom": "2025-06-14T15:47:18Z",
+                        "dateTo": "2025-06-16T11:45:14Z",
+                        "stsId": "8D2B0D8D78458DDAB5ABE06C700",
+                        "otherVesselImo": 9271365
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            }
+        ],
+        "voyageAIS": {
+            "ballastAIS": [
+                {
+                    "lat": 29.6227,
+                    "lon": 48.7706
+                },
+                {
+                    "lat": 29.6227,
+                    "lon": 48.7706
+                }
+            ],
+            "ladenAIS": [
+                {
+                    "lat": 29.6221,
+                    "lon": 48.7703
+                },
+                {
+                    "lat": 29.6099,
+                    "lon": 48.7744
+                }
+            ]
+        },
+        "futureVoyageAIS": {
+            "ballastAIS": [],
+            "ladenAIS": []
+        },
+        "cargoGroupID": 130000,
+        "cargoGroup": "Dirty",
+        "cargoTypeSource": "EstimatedMedium",
+        "quantity": 281000.0,
+        "quantitySource": "Estimated",
+        "quantityUnitID": "MetricTonnes",
+        "isHistoricalTCEAvailable": true
+    },
+    {
+        "imo": 9251597,
+        "vesselClassID": 84,
+        "startDate": "2025-05-07T03:45:45Z",
+        "endDate": "2025-06-02T23:49:12Z",
+        "aisPointsPerDay": 6,
+        "isCurrentVoyage": false,
+        "shouldDisplayCurrentVoyage": false,
+        "commercialOperatorID": 1053,
+        "commercialOperator": "New Shipping",
+        "voyageCode": 94,
+        "voyageNumber": 94,
+        "startingPort": "Khor Al Zubair",
+        "startingPortID": 3535,
+        "startingPortCountryName": "Iraq",
+        "startingPortCountryID": 114,
+        "loadPort": "Khor Al Zubair",
+        "loadPortID": 3535,
+        "dischargePort": "Khor Al Zubair",
+        "dischargePortID": 3535,
+        "charterer": "CNR",
+        "chartererID": -2,
+        "startPortArrivalDate": "2025-05-05T07:50:06Z",
+        "startPortSailingDate": "2025-05-07T03:45:45Z",
+        "loadArrivalDate": "2025-05-07T07:51:49Z",
+        "isFuture": false,
+        "commercialStatus": "",
+        "commercialStatusID": 4,
+        "maskedOperationalStatus": "",
+        "rateValue": "RNR",
+        "rateType": "",
+        "cargoTypeID": 16,
+        "cargoType": "Fueloil",
+        "stops": [],
+        "portCalls": [
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "L",
+                "arrival_LocalTime": "2025-05-07T07:51:49Z",
+                "arrivalLocalTime": "2025-05-07T07:51:49Z",
+                "sailing_LocalTime": "2025-05-16T11:55:48Z",
+                "sailingLocalTime": "2025-05-16T11:55:48Z",
+                "duration": 0.17087962962963,
+                "lat": 29.6218,
+                "lon": 48.7677,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Maran Aspasia",
+                        "dateFrom": "2025-05-07T07:51:49Z",
+                        "dateTo": "2025-05-08T11:51:56Z",
+                        "stsId": "8D2B0D96C1BD8DD8D3C05B85880",
+                        "otherVesselImo": 9879997
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Vs88",
+                        "dateFrom": "2025-05-10T23:45:06Z",
+                        "dateTo": "2025-05-11T23:55:18Z",
+                        "stsId": "8D2B0D8D8A418DD901CB1072D00",
+                        "otherVesselImo": 9275969
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            },
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "D",
+                "arrival_LocalTime": "2025-05-16T15:47:58Z",
+                "arrivalLocalTime": "2025-05-16T15:47:58Z",
+                "sailing_LocalTime": "2025-06-02T23:49:12Z",
+                "sailingLocalTime": "2025-06-02T23:49:12Z",
+                "duration": 0.161226851851852,
+                "lat": 29.6227,
+                "lon": 48.7705,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Byzantium",
+                        "dateFrom": "2025-05-16T15:47:58Z",
+                        "dateTo": "2025-05-18T07:50:12Z",
+                        "stsId": "8D2B0D8F42B88DD949107E38B00",
+                        "otherVesselImo": 9388728
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Bianca",
+                        "dateFrom": "2025-05-18T11:42:10Z",
+                        "dateTo": "2025-05-19T19:51:14Z",
+                        "stsId": "8D2B0D8D4B978DD96010638D500",
+                        "otherVesselImo": 9259927
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Nordic Thunder",
+                        "dateFrom": "2025-05-24T23:55:07Z",
+                        "dateTo": "2025-05-26T03:45:02Z",
+                        "stsId": "8D2B0D957E6C8DD9B1E6908FF80",
+                        "otherVesselImo": 9797228
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Camilla",
+                        "dateFrom": "2025-05-26T15:45:28Z",
+                        "dateTo": "2025-05-27T09:30:33Z",
+                        "stsId": "8D2B0D8D37C28DD9C6C569CDC00",
+                        "otherVesselImo": 9254850
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Kapsali",
+                        "dateFrom": "2025-05-28T11:45:42Z",
+                        "dateTo": "2025-05-30T11:52:51Z",
+                        "stsId": "8D2B0D924A708DD9DDD2CB6F700",
+                        "otherVesselImo": 9587312
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "New Discovery",
+                        "dateFrom": "2025-05-31T15:45:19Z",
+                        "dateTo": "2025-06-02T15:55:35Z",
+                        "stsId": "8D2B0D8D6F538DDA05A25505180",
+                        "otherVesselImo": 9269075
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            }
+        ],
+        "voyageAIS": {
+            "ballastAIS": [
+                {
+                    "lat": 29.6261,
+                    "lon": 48.764
+                },
+                {
+                    "lat": 29.6261,
+                    "lon": 48.764
+                }
+            ],
+            "ladenAIS": [
+                {
+                    "lat": 29.6218,
+                    "lon": 48.7677
+                },
+                {
+                    "lat": 29.6218,
+                    "lon": 48.7677
+                }
+            ]
+        },
+        "futureVoyageAIS": {
+            "ballastAIS": [],
+            "ladenAIS": []
+        },
+        "cargoGroupID": 130000,
+        "cargoGroup": "Dirty",
+        "cargoTypeSource": "EstimatedMedium",
+        "quantity": 281000.0,
+        "quantitySource": "Estimated",
+        "quantityUnitID": "MetricTonnes",
+        "isHistoricalTCEAvailable": true
+    },
+    {
+        "imo": 9251597,
+        "vesselClassID": 84,
+        "startDate": "2025-04-18T07:52:45Z",
+        "endDate": "2025-05-07T03:45:45Z",
+        "aisPointsPerDay": 6,
+        "isCurrentVoyage": false,
+        "shouldDisplayCurrentVoyage": false,
+        "commercialOperatorID": 1053,
+        "commercialOperator": "New Shipping",
+        "voyageCode": 93,
+        "voyageNumber": 93,
+        "startingPort": "Khor Al Zubair",
+        "startingPortID": 3535,
+        "startingPortCountryName": "Iraq",
+        "startingPortCountryID": 114,
+        "loadPort": "Khor Al Zubair",
+        "loadPortID": 3535,
+        "dischargePort": "Khor Al Zubair",
+        "dischargePortID": 3535,
+        "charterer": "CNR",
+        "chartererID": -2,
+        "startPortArrivalDate": "2025-04-18T07:52:45Z",
+        "startPortSailingDate": "2025-04-18T07:52:45Z",
+        "loadArrivalDate": "2025-04-18T15:46:52Z",
+        "isFuture": false,
+        "commercialStatus": "",
+        "commercialStatusID": 4,
+        "maskedOperationalStatus": "",
+        "rateValue": "RNR",
+        "rateType": "",
+        "cargoTypeID": 16,
+        "cargoType": "Fueloil",
+        "stops": [],
+        "portCalls": [
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "L",
+                "arrival_LocalTime": "2025-04-18T15:46:52Z",
+                "arrivalLocalTime": "2025-04-18T15:46:52Z",
+                "sailing_LocalTime": "2025-05-05T07:45:36Z",
+                "sailingLocalTime": "2025-05-05T07:45:36Z",
+                "duration": 0.329247685185185,
+                "lat": 29.6234,
+                "lon": 48.7701,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Vs88",
+                        "dateFrom": "2025-04-18T15:46:52Z",
+                        "dateTo": "2025-04-19T11:48:37Z",
+                        "stsId": "8D2B0D8D8A418DD7E903CFBBE00",
+                        "otherVesselImo": 9275969
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Lorian",
+                        "dateFrom": "2025-04-19T15:40:54Z",
+                        "dateTo": "2025-04-19T19:50:03Z",
+                        "stsId": "8D2B0D8D494F8DD7F5892030700",
+                        "otherVesselImo": 9259343
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Sumer",
+                        "dateFrom": "2025-04-19T23:47:44Z",
+                        "dateTo": "2025-04-20T19:56:58Z",
+                        "stsId": "8D2B0D97CF288DD7F9C94875000",
+                        "otherVesselImo": 9948968
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Princess Sofia",
+                        "dateFrom": "2025-04-21T11:36:08Z",
+                        "dateTo": "2025-04-22T07:41:15Z",
+                        "stsId": "8CFF578D2B0D8DD80C8B54CC400",
+                        "otherVesselImo": 9240407
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "City Of Tokyo",
+                        "dateFrom": "2025-04-23T03:45:04Z",
+                        "dateTo": "2025-04-24T23:47:29Z",
+                        "stsId": "8D2B0D8D67AE8DD82193B782000",
+                        "otherVesselImo": 9267118
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Camilla",
+                        "dateFrom": "2025-04-25T11:50:00Z",
+                        "dateTo": "2025-04-26T11:57:57Z",
+                        "stsId": "8D2B0D8D37C28DD83EF4EDCE400",
+                        "otherVesselImo": 9254850
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Catalina",
+                        "dateFrom": "2025-04-28T19:50:23Z",
+                        "dateTo": "2025-05-01T15:57:11Z",
+                        "stsId": "8D2B0D8D3D2C8DD868DE9F2E980",
+                        "otherVesselImo": 9256236
+                    },
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Princess Sofia",
+                        "dateFrom": "2025-05-02T07:44:57Z",
+                        "dateTo": "2025-05-03T03:57:25Z",
+                        "stsId": "8CFF578D2B0D8DD894D3C156280",
+                        "otherVesselImo": 9240407
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            },
+            {
+                "portID": 3535,
+                "portName": "Khor Al Zubair",
+                "countryID": 114,
+                "countryName": "Iraq",
+                "displayName": "Khor Al Zubair",
+                "purpose": "D",
+                "arrival_LocalTime": "2025-05-05T07:50:06Z",
+                "arrivalLocalTime": "2025-05-05T07:50:06Z",
+                "sailing_LocalTime": "2025-05-07T03:45:45Z",
+                "sailingLocalTime": "2025-05-07T03:45:45Z",
+                "duration": 0.003125,
+                "lat": 29.6263,
+                "lon": 48.7648,
+                "isFuture": false,
+                "isVesselInPortCall": false,
+                "portCallDetails": [
+                    {
+                        "operationType": "StS",
+                        "displayLabel": "Chios I",
+                        "dateFrom": "2025-05-05T07:50:06Z",
+                        "dateTo": "2025-05-06T19:45:45Z",
+                        "stsId": "8D2B0D956ABB8DD8BA973804B00",
+                        "otherVesselImo": 9792187
+                    }
+                ],
+                "hasMissingAIS": false,
+                "portCallUncertain": false,
+                "isSensitive": false,
+                "flags": []
+            }
+        ],
+        "voyageAIS": {
+            "ballastAIS": [
+                {
+                    "lat": 29.6268,
+                    "lon": 48.7659
+                },
+                {
+                    "lat": 29.6268,
+                    "lon": 48.7659
+                }
+            ],
+            "ladenAIS": [
+                {
+                    "lat": 29.6234,
+                    "lon": 48.7701
+                },
+                {
+                    "lat": 29.6234,
+                    "lon": 48.7701
+                }
+            ]
+        },
+        "futureVoyageAIS": {
+            "ballastAIS": [],
+            "ladenAIS": []
+        },
+        "cargoGroupID": 130000,
+        "cargoGroup": "Dirty",
+        "cargoTypeSource": "EstimatedMedium",
+        "quantity": 281000.0,
+        "quantitySource": "Estimated",
+        "quantityUnitID": "MetricTonnes",
+        "isHistoricalTCEAvailable": true
+    }
+]
