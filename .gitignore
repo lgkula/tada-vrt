@@ -7,3 +7,6 @@ yarn-error.log
 package-lock.json
 playwright-report/
 test-results/
+db/
+imageUploads/
+.env
