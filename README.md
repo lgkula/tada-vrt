@@ -9,8 +9,6 @@ W celu weryfikacji środowiska na którym będziemy pracować w takcie warsztat�
 ## Przydatne Linki
 
 - Notatki: : https://pastebin.com/hhKFQzX
-
-- Ankieta po warsztatach: https://forms.gle/A5mCMZrZyk4fntNUA
   
 ## Wymagania
 
@@ -23,13 +21,12 @@ Proszę o instalację:
 - **IDE** - najlepiej Visual Studio Code - https://code.visualstudio.com/download
 
 - **GIT** - [https://git-scm.com/downloads](https://git-scm.com/downloads)
-    **UWAGA: W trakcie instalacji w oknie "Adjusting your PATH environment" zaznaczcie opcje: "Use Git and optional Unix tools from the Windows Command Prompt (ostatni radio button)"**
 
 - **Docker**
-  - https://docs.docker.com/install/linux/docker-ce/ubuntu/
-  - https://docs.docker.com/docker-for-windows/install/
-  - https://docs.docker.com/docker-for-mac/install/
-
+  - https://docs.docker.com/desktop/setup/install/linux/ubuntu
+  - https://docs.docker.com/desktop/setup/install/windows-install
+  - https://docs.docker.com/desktop/setup/install/mac-install
+    
 - **Node.js**
   - https://nodejs.org/en
 
@@ -48,6 +45,7 @@ Proszę o instalację:
 ### Docker
 
 - Wpisz w konsoli: `docker -v` po czym upewnij się, iż została podana informacja o wersji zainstalowanego Dockera
+- Wpisz w konsoli: `docker-compose -v` po czym upewnij się, iż została podana informacja o wersji zainstalowanego Docker-Componse
 
 ### Node.js
 
