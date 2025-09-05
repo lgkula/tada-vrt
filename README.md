@@ -8,7 +8,7 @@ W celu weryfikacji środowiska na którym będziemy pracować w takcie warsztat�
 
 ## Przydatne Linki
 
-- Notatki: : https://pastebin.com/hhKFQzX
+- Notatki: : https://docs.google.com/document/d/1vxRUL95oF7APLjkxTBMzWbDNGqMLSactPRzQqyPY1eQ/edit?usp=sharing
   
 ## Wymagania
 
