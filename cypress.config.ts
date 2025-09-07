@@ -20,6 +20,9 @@ export default defineConfig({
         if (browser.name === 'electron') {
           launchOptions.preferences.width = width;
           launchOptions.preferences.height = height;
+          launchOptions.preferences ??= {}
+          launchOptions.preferences.webPreferences ??= {}
+          launchOptions.preferences.webPreferences.webgl = false
         } else if (browser.family === 'chromium') {
           launchOptions.args.push(`--window-size=${width},${height}`);
         }
@@ -33,6 +36,8 @@ export default defineConfig({
     specPattern: 'cypress/tests/**/*.{js,jsx,ts,tsx}',
     viewportWidth: 1600,
     viewportHeight: 900,
+    experimentalMemoryManagement: true,
+    numTestsKeptInMemory: 1
   },
 
 })
