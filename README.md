@@ -56,3 +56,4 @@ Proszę o instalację:
 ## W razie problemów
 
 W razie jakichkolwiek pytań lub problemów z wykonaniem instrukcji pisz na mój adres e-mail: *t.klepacki@wp.pl*
+##
