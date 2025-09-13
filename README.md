@@ -9,6 +9,7 @@ W celu weryfikacji środowiska na którym będziemy pracować w takcie warsztat�
 ## Przydatne Linki
 
 - Notatki: : https://docs.google.com/document/d/1vxRUL95oF7APLjkxTBMzWbDNGqMLSactPRzQqyPY1eQ/edit?usp=sharing
+- Zadania i rozwiązania zadań: https://drive.google.com/drive/folders/13mVd0VMy9V6yNBf2aeFRgAQp8gf4Z5du?usp=sharing
   
 ## Wymagania
 
