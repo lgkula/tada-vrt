@@ -10,3 +10,5 @@ test-results/
 db/
 imageUploads/
 .env
+**/bitmaps_test/
+**/html_report/

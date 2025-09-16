@@ -1,4 +1,5 @@
-import { defineConfig } from 'cypress'
+import { defineConfig } from 'cypress';
+import { addMatchImageSnapshotPlugin } from '@simonsmith/cypress-image-snapshot/plugin';
 
 export default defineConfig({
   reporter: 'mochawesome',
@@ -6,12 +7,13 @@ export default defineConfig({
     reportDir: 'cypress/results',
     overwrite: true,
     html: true,
-    reportTitle: "Cypress Test Report",
+    reportTitle: 'Cypress Test Report',
     json: true,
     inlineAssets: true,
   },
   e2e: {
     setupNodeEvents(on, config) {
+      addMatchImageSnapshotPlugin(on);
 
       on('before:browser:launch', (browser, launchOptions) => {
         const width = 1600;
@@ -20,9 +22,9 @@ export default defineConfig({
         if (browser.name === 'electron') {
           launchOptions.preferences.width = width;
           launchOptions.preferences.height = height;
-          launchOptions.preferences ??= {}
-          launchOptions.preferences.webPreferences ??= {}
-          launchOptions.preferences.webPreferences.webgl = false
+          launchOptions.preferences ??= {};
+          launchOptions.preferences.webPreferences ??= {};
+          launchOptions.preferences.webPreferences.webgl = false;
         } else if (browser.family === 'chromium') {
           launchOptions.args.push(`--window-size=${width},${height}`);
         }
@@ -32,12 +34,11 @@ export default defineConfig({
 
       return config;
     },
-    baseUrl: "https://unstable.dev.signalocean.com",
+    baseUrl: 'https://unstable.dev.signalocean.com',
     specPattern: 'cypress/tests/**/*.{js,jsx,ts,tsx}',
     viewportWidth: 1600,
     viewportHeight: 900,
     experimentalMemoryManagement: true,
-    numTestsKeptInMemory: 1
+    numTestsKeptInMemory: 1,
   },
-
-})
+});

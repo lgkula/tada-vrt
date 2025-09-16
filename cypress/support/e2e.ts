@@ -16,6 +16,9 @@
 import './commands'
 import addContext from 'mochawesome/addContext'
 import path from "path";
+import { addMatchImageSnapshotCommand } from '@simonsmith/cypress-image-snapshot/command';
+
+addMatchImageSnapshotCommand();
 
 beforeEach(() => {
   cy.clearCookies();

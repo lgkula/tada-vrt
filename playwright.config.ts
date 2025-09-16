@@ -1,8 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
-  testDir: './playwright/tests',  
+  testDir: './playwright/tests',
   timeout: 90000,
-  snapshotPathTemplate: "playwright/tests/__screenshots__/{arg}.snap.png",
+  snapshotPathTemplate: 'playwright/tests/__screenshots__/{arg}.snap.png',
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
@@ -11,10 +11,13 @@ export default defineConfig({
   use: {
     trace: 'on-first-retry',
     baseURL: 'https://unstable.dev.signalocean.com',
+    // connectOptions: {
+    //   wsEndpoint: 'ws://localhost:9292/pw',
+    // },
   },
   projects: [
     {
-      name: "chromium",
+      name: 'chromium',
       use: { viewport: { width: 1920, height: 1080 } },
     },
   ],
